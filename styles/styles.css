@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#infoForm {
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 13px 13px 4px #0000001a;
+    -webkit-box-shadow: 0px 13px 13px 4px #0000001a;
+    -moz-box-shadow: 0px 13px 13px 4px #0000001a;
+}
+
+.formTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    width: 300px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nameError, #ageError, #emailError {
+    color: red;
+}
+
+#name, #age, #email {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.inputTitle {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.submitButton {
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

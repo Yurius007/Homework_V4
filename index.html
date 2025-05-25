@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма Персональних Даних</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <div class="formContainer">
+            <h1 class="formTitle">Форма персональних даних</h1>
+            <form id="infoForm">
+                <div class="form-group">
+                    <label class="inputTitle" for="name" >Ім'я:</label>
+                    <input type="text" id="name" name="name">
+                    <div id="nameError" class="error-message"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="inputTitle" for="age">Вік:</label>
+                    <input type="number" id="age" name="age">
+                    <div id="ageError" class="error-message"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="inputTitle" for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com">
+                    <div id="emailError" class="error-message"></div>
+                </div>
+
+                <button class="submitButton" type="submit">Відправити</button>
+            </form>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
